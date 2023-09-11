@@ -1,18 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ActiveLinks from "../ActiveLinks/ActiveLinks";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faPerson,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
-    <div className="flex justify-between ">
-      <h1>JobMagnet</h1>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/statistics">Statistics</Link>
-        <Link to="/appliedJobs">Applied Jobs</Link>
-        <Link to="/blog">Blog</Link>
-      </nav>
-      <button>Profile</button>
-    </div>
+    <nav className="grid grid-cols-3 py-4 shadow-sm sticky top-0 z-50  px-24 bg-slate-50">
+      <Link to="/">
+        {" "}
+        <h1 className="text-3xl font-bold text-blue-600">JobMagnet</h1>
+      </Link>
+      <div className="flex justify-around">
+        <ActiveLinks to="/">Home</ActiveLinks>
+        <ActiveLinks to="/statistics">Statistics</ActiveLinks>
+        <ActiveLinks to="/appliedJobs">Applied Jobs</ActiveLinks>
+        <ActiveLinks to="/blog">Blog</ActiveLinks>
+      </div>
+      <p className="text-end text-2xl text-purple-600">
+        {" "}
+        <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+      </p>
+    </nav>
   );
 };
 
