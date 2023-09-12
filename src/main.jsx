@@ -10,6 +10,7 @@ import Blog from "./Components/Blog/Blog.jsx";
 import NotFound from "./Components/NotFound/NotFound.jsx";
 import Main from "./Components/Main/Main.jsx";
 import Home from "./Components/Home/Home.jsx";
+import { jobCategoriesLoaders } from "./Components/Loaders/Loaders.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+        loader: jobCategoriesLoaders,
       },
       {
         path: "statistics",

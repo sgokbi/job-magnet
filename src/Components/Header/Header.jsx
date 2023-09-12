@@ -10,7 +10,7 @@ import {
 
 const Header = () => {
   return (
-    <nav className="grid grid-cols-3 py-4 shadow-sm sticky top-0 z-50  px-24 bg-slate-50">
+    <nav className="grid grid-cols-3 py-4 shadow-sm sticky top-0 z-50  px-24 bg-slate-50 items-center">
       <Link to="/">
         {" "}
         <h1 className="text-3xl font-bold text-blue-600">JobMagnet</h1>

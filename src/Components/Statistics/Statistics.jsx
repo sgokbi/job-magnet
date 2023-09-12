@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "../Head/Head";
 import Heading from "../Heading/Heading";
 
 const Statistics = () => {
