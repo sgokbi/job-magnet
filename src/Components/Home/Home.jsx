@@ -5,12 +5,14 @@ import tech from "../../assets/images/technology.png";
 
 import { useLoaderData } from "react-router-dom";
 import JobsCategories from "../JobsCategories/JobsCategories";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 const Home = () => {
-  const jobsCategories = useLoaderData();
+  const data = useLoaderData();
 
   return (
     <div className="container mx-auto my-6 px-16  ">
+      {/* ******* HEADING ****** */}
       <Heading>
         <div
           className=" 
@@ -41,7 +43,7 @@ const Home = () => {
         </div>
       </Heading>
 
-      {/* // JOBS CATEGORIES */}
+      {/* ****** JOBS CATEGORIES ****** */}
       <div className="my-24 ">
         <div className="mb-8 text-center">
           <h1 className="text-4xl font-medium text-slate-600 my-4">
@@ -54,8 +56,30 @@ const Home = () => {
         </div>
 
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          {jobsCategories.map((jobs, i) => (
-            <JobsCategories key={i} jobs={jobs}></JobsCategories>
+          {data[0].map((jobCategories, i) => (
+            <JobsCategories
+              key={i}
+              jobCategories={jobCategories}
+            ></JobsCategories>
+          ))}
+        </div>
+      </div>
+
+      {/* ****** FEATURED JOBS ****** */}
+      <div className="my-24 ">
+        <div className="mb-8 text-center">
+          <h1 className="text-4xl font-medium text-slate-600 my-4">
+            Featured Jobs
+          </h1>
+          <p className="leading-7 text-slate-500 ">
+            Explore thousands of job opportunities all the information you nead.
+            Its your future.
+          </p>
+        </div>
+
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
+          {data[1].map((jobs) => (
+            <FeaturedJobs key={jobs.job_id} jobs={jobs}></FeaturedJobs>
           ))}
         </div>
       </div>

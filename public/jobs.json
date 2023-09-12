@@ -1,0 +1,194 @@
+[
+  {
+    "company": {
+      "name": "ABC Tech Inc",
+      "logo": "https://example.com/abc-tech-logo.png"
+    },
+    "job_id": "01",
+    "job_title": "Software Engineer",
+    "job_type": ["Full time", "Remote"],
+    "location": "San Francisco, CA",
+    "salary_range": "$80,000 - $100,000 per year",
+    "job_description": "We are looking for a skilled Software Engineer to join our team. The ideal candidate will have experience in...",
+    "job_responsibility": [
+      "Designing and developing software applications.",
+      "Collaborating with cross-functional teams.",
+      "Writing clean and efficient code."
+    ],
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experience": "2+ years of software development experience",
+    "contact_information": {
+      "contact_name": "John Doe",
+      "contact_email": "john.doe@abctech.com",
+      "contact_phone": "+1 (123) 456-7890"
+    }
+  },
+  {
+    "company": {
+      "name": "XYZ Healthcare",
+      "logo": "https://example.com/xyz-healthcare-logo.png"
+    },
+    "job_id": "02",
+    "job_title": "Registered Nurse",
+    "job_type": ["Part time", "Remote"],
+    "location": "New York, NY",
+    "salary_range": "$50 - $60 per hour",
+    "job_description": "We are seeking a compassionate Registered Nurse to provide high-quality patient care...",
+    "job_responsibility": [
+      "Providing patient care and administering medications.",
+      "Maintaining accurate medical records.",
+      "Collaborating with the medical staff."
+    ],
+    "educational_requirements": "Associate's or Bachelor's degree in Nursing",
+    "experience": "1+ years of nursing experience",
+    "contact_information": {
+      "contact_name": "Jane Smith",
+      "contact_email": "jane.smith@xyzhealthcare.com",
+      "contact_phone": "+1 (987) 654-3210"
+    }
+  },
+  {
+    "company": {
+      "name": "123 Finance Corp",
+      "logo": "https://example.com/123-finance-logo.png"
+    },
+    "job_id": "03",
+    "job_title": "Financial Analyst",
+    "job_type": ["Full time", "Onsite"],
+    "location": "Chicago, IL",
+    "salary_range": "$70,000 - $90,000 per year",
+    "job_description": "We are seeking a Financial Analyst to join our finance team. The ideal candidate will be responsible for...",
+    "job_responsibility": [
+      "Analyzing financial data and preparing reports.",
+      "Assisting with budgeting and forecasting.",
+      "Providing financial recommendations to management."
+    ],
+    "educational_requirements": "Bachelor's degree in Finance, Accounting, or related field",
+    "experience": "3+ years of financial analysis experience",
+    "contact_information": {
+      "contact_name": "Sarah Johnson",
+      "contact_email": "sarah.johnson@123finance.com",
+      "contact_phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "company": {
+      "name": "ABC Marketing Agency",
+      "logo": "https://example.com/abc-marketing-logo.png"
+    },
+    "job_id": "04",
+    "job_title": "Marketing Manager",
+    "job_type": ["Full-time", "Onsite"],
+    "location": "Los Angeles, CA",
+    "salary_range": "$90,000 - $110,000 per year",
+    "job_description": "We are looking for an experienced Marketing Manager to lead our marketing efforts. The successful candidate will be responsible for...",
+    "job_responsibility": [
+      "Developing and implementing marketing strategies.",
+      "Managing marketing campaigns and budgets.",
+      "Analyzing market trends and competitor data."
+    ],
+    "educational_requirements": "Bachelor's degree in Marketing or related field",
+    "experience": "5+ years of marketing management experience",
+    "contact_information": {
+      "contact_name": "Emily Brown",
+      "contact_email": "emily.brown@abcmarketing.com",
+      "contact_phone": "+1 (888) 567-8901"
+    }
+  },
+  {
+    "company": {
+      "name": "Tech Innovators",
+      "logo": "https://example.com/tech-innovators-logo.png"
+    },
+    "job_id": "05",
+    "job_title": "Data Scientist",
+    "job_type": ["Full-time", "Remote"],
+    "location": "Seattle, WA",
+    "salary_range": "$90,000 - $120,000 per year",
+    "job_description": "We are seeking a Data Scientist to analyze and interpret complex data sets...",
+    "job_responsibility": [
+      "Conducting data analysis and modeling.",
+      "Creating data visualizations and reports.",
+      "Collaborating with cross-functional teams."
+    ],
+    "educational_requirements": "Master's or Ph.D. in Data Science or related field",
+    "experience": "2+ years of data science experience",
+    "contact_information": {
+      "contact_name": "Alice Smith",
+      "contact_email": "alice.smith@techinnovators.com",
+      "contact_phone": "+1 (555) 987-6543"
+    }
+  },
+  {
+    "company": {
+      "name": "EcoGreen Solutions",
+      "logo": "https://example.com/ecogreen-logo.png"
+    },
+    "job_id": "06",
+    "job_title": "Environmental Engineer",
+    "job_type": ["Part-time", "Onsite"],
+    "location": "Denver, CO",
+    "salary_range": "$70,000 - $90,000 per year",
+    "job_description": "Join our team as an Environmental Engineer to work on sustainability and environmental projects...",
+    "job_responsibility": [
+      "Designing eco-friendly solutions.",
+      "Conducting environmental impact assessments.",
+      "Collaborating with regulatory agencies."
+    ],
+    "educational_requirements": "Bachelor's degree in Environmental Engineering or related field",
+    "experience": "3+ years of environmental engineering experience",
+    "contact_information": {
+      "contact_name": "David Wilson",
+      "contact_email": "david.wilson@ecogreensolutions.com",
+      "contact_phone": "+1 (123) 456-7890"
+    }
+  },
+  {
+    "company": {
+      "name": "Global Logistics Inc",
+      "logo": "https://example.com/global-logistics-logo.png"
+    },
+    "job_id": "07",
+    "job_title": "Logistics Coordinator",
+    "job_type": ["Full-time", "Onsite"],
+    "location": "Dallas, TX",
+    "salary_range": "$45,000 - $55,000 per year",
+    "job_description": "We are looking for a detail-oriented Logistics Coordinator to manage shipping and transportation...",
+    "job_responsibility": [
+      "Coordinating shipments and deliveries.",
+      "Managing inventory and supply chain logistics.",
+      "Ensuring compliance with transportation regulations."
+    ],
+    "educational_requirements": "Bachelor's degree in Logistics or related field",
+    "experience": "1+ years of logistics coordination experience",
+    "contact_information": {
+      "contact_name": "Linda Jackson",
+      "contact_email": "linda.jackson@globallogistics.com",
+      "contact_phone": "+1 (800) 123-4567"
+    }
+  },
+  {
+    "company": {
+      "name": "Artistic Creations Studio",
+      "logo": "https://example.com/artistic-creations-logo.png"
+    },
+    "job_id": "08",
+    "job_title": "Graphic Designer",
+    "job_type": ["Full-time", "Remote"],
+    "location": "New York, NY",
+    "salary_range": "$60,000 - $80,000 per year",
+    "job_description": "Join our creative team as a Graphic Designer and bring visual concepts to life...",
+    "job_responsibility": [
+      "Creating visual designs for marketing materials.",
+      "Collaborating with the creative team on projects.",
+      "Maintaining brand consistency in designs."
+    ],
+    "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+    "experience": "2+ years of graphic design experience",
+    "contact_information": {
+      "contact_name": "Mark Johnson",
+      "contact_email": "mark.johnson@artisticcreations.com",
+      "contact_phone": "+1 (555) 234-5678"
+    }
+  }
+]

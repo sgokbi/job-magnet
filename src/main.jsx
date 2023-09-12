@@ -10,7 +10,8 @@ import Blog from "./Components/Blog/Blog.jsx";
 import NotFound from "./Components/NotFound/NotFound.jsx";
 import Main from "./Components/Main/Main.jsx";
 import Home from "./Components/Home/Home.jsx";
-import { jobCategoriesLoaders } from "./Components/Loaders/Loaders.jsx";
+import { loaders } from "./Components/Loaders/Loaders.jsx";
+import JobDetails from "./Components/JobDetails/JobDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: jobCategoriesLoaders,
+        loader: loaders,
       },
       {
         path: "statistics",
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "blog",
         element: <Blog></Blog>,
+      },
+      {
+        path: "jobDetails",
+        element: <JobDetails></JobDetails>,
       },
     ],
   },
