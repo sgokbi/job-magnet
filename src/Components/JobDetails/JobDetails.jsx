@@ -5,7 +5,7 @@ const JobDetails = () => {
   return (
     <div>
       <Heading>
-        <div className="text-center my-16">
+        <div className="text-center py-16 bg-slate-50">
           <h1 className="text-5xl font-normal leading-tight text-purple-600">
             Job Details
           </h1>

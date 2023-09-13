@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Heading from "../Heading/Heading";
 import pic from "../../assets/images/heading_pic.png";
 import tech from "../../assets/images/technology.png";
@@ -9,6 +9,24 @@ import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 const Home = () => {
   const data = useLoaderData();
+  const jobCategories = data[0];
+  const jobs = data[1];
+  const [showMore, setShowMore] = useState(4);
+
+  let showMoreBtn;
+  if (jobs.length > showMore) {
+    showMoreBtn = (
+      <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold px-5 py-4 rounded-md text-xl text">
+        Show More
+      </button>
+    );
+  } else {
+    showMoreBtn = "";
+  }
+
+  const handleShowAll = () => {
+    setShowMore((prevValue) => prevValue + 4);
+  };
 
   return (
     <div className="container mx-auto my-6 px-16  ">
@@ -56,11 +74,8 @@ const Home = () => {
         </div>
 
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          {data[0].map((jobCategories, i) => (
-            <JobsCategories
-              key={i}
-              jobCategories={jobCategories}
-            ></JobsCategories>
+          {jobCategories.map((jobCategory, i) => (
+            <JobsCategories key={i} jobCategory={jobCategory}></JobsCategories>
           ))}
         </div>
       </div>
@@ -78,10 +93,21 @@ const Home = () => {
         </div>
 
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
-          {data[1].map((jobs) => (
+          {jobs.slice(0, showMore).map((jobs) => (
             <FeaturedJobs key={jobs.job_id} jobs={jobs}></FeaturedJobs>
           ))}
         </div>
+
+        {/* ****** SHOW MORE JOBS ****** */}
+        <div onClick={() => handleShowAll()} className="text-center my-10">
+          {showMoreBtn}
+        </div>
+
+        {/* {jobs.length > showMore && (
+          <div onClick={() => handleShowAll()} className="text-center my-10">
+            Show more
+          </div>
+        )} */}
       </div>
     </div>
   );

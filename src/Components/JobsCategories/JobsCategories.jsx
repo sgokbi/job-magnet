@@ -1,7 +1,7 @@
 import React from "react";
 
-const JobsCategories = ({ jobCategories }) => {
-  const { icon, category, number_of_jobs: available } = jobCategories;
+const JobsCategories = ({ jobCategory }) => {
+  const { icon, category, number_of_jobs: available } = jobCategory;
 
   return (
     <div className=" rounded bg-purple-50 p-4 text-center cursor-pointer hover:-translate-y-2 duration-300">

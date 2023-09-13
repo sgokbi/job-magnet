@@ -190,5 +190,53 @@
       "contact_email": "mark.johnson@artisticcreations.com",
       "contact_phone": "+1 (555) 234-5678"
     }
+  },
+  {
+    "company": {
+      "name": "Wide Range Inc",
+      "logo": "https://example.com/abc-tech-logo.png"
+    },
+    "job_id": "09",
+    "job_title": "Electrical Engineer",
+    "job_type": ["Full time", "Remote"],
+    "location": "San Francisco, CA",
+    "salary_range": "$80,000 - $100,000 per year",
+    "job_description": "We are looking for a skilled Software Engineer to join our team. The ideal candidate will have experience in...",
+    "job_responsibility": [
+      "Designing and developing software applications.",
+      "Collaborating with cross-functional teams.",
+      "Writing clean and efficient code."
+    ],
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experience": "2+ years of software development experience",
+    "contact_information": {
+      "contact_name": "John Doe",
+      "contact_email": "john.doe@abctech.com",
+      "contact_phone": "+1 (123) 456-7890"
+    }
+  },
+  {
+    "company": {
+      "name": "Agro Corp",
+      "logo": "https://example.com/123-finance-logo.png"
+    },
+    "job_id": "10",
+    "job_title": "Manager",
+    "job_type": ["Full time", "Onsite"],
+    "location": "Oulu, Finland",
+    "salary_range": "$90,000 - $120,000 per year",
+    "job_description": "We are seeking a Financial Analyst to join our finance team. The ideal candidate will be responsible for...",
+    "job_responsibility": [
+      "Analyzing financial data and preparing reports.",
+      "Assisting with budgeting and forecasting.",
+      "Providing financial recommendations to management."
+    ],
+    "educational_requirements": "Bachelor's degree in Finance, Accounting, or related field",
+    "experience": "8+ years of financial analysis experience",
+    "contact_information": {
+      "contact_name": "Sarah Johnson",
+      "contact_email": "sarah.johnson@123finance.com",
+      "contact_phone": "+1 (358) 123-4567"
+    }
   }
 ]
