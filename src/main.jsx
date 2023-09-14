@@ -24,6 +24,14 @@ const router = createBrowserRouter([
         loader: loaders,
       },
       {
+        path: "/:jobId",
+        element: <JobDetails></JobDetails>,
+        loader: ({ params }) => {
+          const id = params.jobId;
+          return id;
+        },
+      },
+      {
         path: "statistics",
         element: <Statistics></Statistics>,
       },
@@ -34,10 +42,6 @@ const router = createBrowserRouter([
       {
         path: "blog",
         element: <Blog></Blog>,
-      },
-      {
-        path: "jobDetails",
-        element: <JobDetails></JobDetails>,
       },
     ],
   },

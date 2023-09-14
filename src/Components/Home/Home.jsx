@@ -29,7 +29,7 @@ const Home = () => {
   };
 
   return (
-    <div className="container mx-auto my-6 px-16  ">
+    <div className="container mx-auto my-6 md:px-16  ">
       {/* ******* HEADING ****** */}
       <Heading>
         <div
@@ -93,8 +93,8 @@ const Home = () => {
         </div>
 
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
-          {jobs.slice(0, showMore).map((jobs) => (
-            <FeaturedJobs key={jobs.job_id} jobs={jobs}></FeaturedJobs>
+          {jobs.slice(0, showMore).map((job) => (
+            <FeaturedJobs key={job.job_id} job={job}></FeaturedJobs>
           ))}
         </div>
 

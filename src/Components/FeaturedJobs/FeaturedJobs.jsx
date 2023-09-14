@@ -1,20 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import pic from "../../assets/images/agriculture.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDollar, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
-const FeaturedJobs = ({ jobs }) => {
-  // console.log(jobs);
-
+const FeaturedJobs = ({ job }) => {
   const {
-    job_id,
+    job_id: id,
     company: { logo, name },
     job_title,
     location,
     salary_range,
     job_type,
-  } = jobs;
+  } = job;
+
+  const navigate = useNavigate();
+
+  const handleViewDetails = () => {
+    console.log("clicked");
+    navigate(`/${id}`);
+  };
 
   return (
     <div className="border-solid border-2 border-gray-100 rounded-md hover:shadow-lg duration-300 p-8 ">
@@ -43,11 +48,15 @@ const FeaturedJobs = ({ jobs }) => {
           {salary_range}
         </span>
       </p>
-      <Link to="/jobDetails">
-        <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold p-3 rounded-md">
-          View Details
-        </button>
-      </Link>
+
+      {/* <Link to="/jobDetails"> */}
+      <button
+        onClick={handleViewDetails}
+        className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold p-3 rounded-md"
+      >
+        View Details
+      </button>
+      {/* </Link> */}
     </div>
   );
 };

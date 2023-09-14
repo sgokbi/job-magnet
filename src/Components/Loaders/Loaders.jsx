@@ -8,10 +8,10 @@ const loaders = async () => {
   return [jobsCategories, jobs];
 };
 
-// const jobsLoaders = async () => {
-//   const loadedJobs = await fetch("jobs.jso");
-//   const jobs = loadedJobs.json();
-//   return jobs;
-// };
+const jobsLoaders = async () => {
+  const loadedJobs = await fetch("jobs.jso");
+  const jobs = loadedJobs.json();
+  return jobs;
+};
 
-export { loaders };
+export { loaders, jobsLoaders };
