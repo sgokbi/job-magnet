@@ -1,10 +1,27 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import pic from "../../assets/images/agriculture.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const ListAppliedJons = ({ job }) => {
-  const { job_title, company } = job;
+  const {
+    job_title,
+    company,
+    job_id: id,
+    location,
+    salary_range,
+    job_type,
+  } = job;
+  const navigate = useNavigate();
+
+  const handleViewDetails = () => {
+    console.log("clicked");
+    navigate(`/${id}`);
+  };
   return (
     <div className="flex justify-center items-center">
-      <div className="border rounded-md w-2/5 mb-4 p-4">
+      <div className="border rounded-md md:w-2/5 w-full mb-4 p-4">
         <h1 className="text-slate-600 text-lg">
           <span className="font-semibold me-2 text-xl text-slate-700">
             Company Name:
@@ -17,6 +34,13 @@ const ListAppliedJons = ({ job }) => {
           </span>
           {job_title}
         </h1>
+
+        <button
+          onClick={handleViewDetails}
+          className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold p-2 mt-2 rounded-md text-sm "
+        >
+          View Details
+        </button>
       </div>
     </div>
   );
