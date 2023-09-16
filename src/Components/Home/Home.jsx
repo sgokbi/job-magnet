@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { createContext, useState } from "react";
 import Heading from "../Heading/Heading";
 import pic from "../../assets/images/heading_pic.png";
-import tech from "../../assets/images/technology.png";
 
 import { useLoaderData } from "react-router-dom";
 import JobsCategories from "../JobsCategories/JobsCategories";

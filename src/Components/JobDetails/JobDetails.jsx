@@ -1,19 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Heading from "../Heading/Heading";
-import { useLoaderData } from "react-router-dom";
-import { jobsLoaders, loaders } from "../Loaders/Loaders";
+import { Link, useLoaderData } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDollarSign,
   faEnvelope,
-  faFile,
   faFileArchive,
   faLocationPin,
-  faMessage,
   faPhone,
-  faPhoneAlt,
-  faVoicemail,
 } from "@fortawesome/free-solid-svg-icons";
+import { addAppliedJobToLocalStorage } from "../dataStore/dataStore";
+import { toast } from "react-hot-toast";
 
 const JobDetails = () => {
   const [jobs, setJobs] = useState();
@@ -27,10 +24,15 @@ const JobDetails = () => {
       });
   }, []);
 
-  console.log(jobs);
+  // console.log(jobs);
 
-  const exists = jobs?.find((d) => d.job_id === jobId);
-  const responsibility = exists?.job_responsibility.join(" ");
+  const job = jobs?.find((d) => d.job_id === jobId);
+  const responsibility = job?.job_responsibility.join(" ");
+
+  const handleApplyNowBtn = (job) => {
+    toast("You have successfully applied to this job");
+    addAppliedJobToLocalStorage(job.job_id);
+  };
 
   return (
     <div>
@@ -46,17 +48,17 @@ const JobDetails = () => {
       <div className="container mx-auto md:px-16 md:flex my-12 ">
         <div className="md:w-2/3  p-3 pe-8">
           <h1 className="font-medium text-2xl text-slate-700">
-            {exists?.job_title}
+            {job?.job_title}
           </h1>
           <h1 className="font-normal text-xl mt-1 text-slate-700">
-            {exists?.company.name}
+            {job?.company.name}
           </h1>
           <hr className="my-3" />
           <p className="my-2 text-slate-600">
             <span className="font-semibold text-slate-700">
               Job Description:
             </span>
-            {exists?.job_description}
+            {job?.job_description}
           </p>
           <p className="my-2 text-slate-600">
             <span className="font-semibold text-slate-700">
@@ -68,12 +70,10 @@ const JobDetails = () => {
           <h1 className="font-semibold text-slate-700">
             Educational Requirements:{" "}
           </h1>
-          <p className="mb-2 text-slate-600">
-            {exists?.educational_requirements}
-          </p>
+          <p className="mb-2 text-slate-600">{job?.educational_requirements}</p>
 
           <h1 className="font-semibold text-slate-700"> Experience: </h1>
-          <p className="mb-2 text-slate-600">{exists?.experience}</p>
+          <p className="mb-2 text-slate-600">{job?.experience}</p>
         </div>
 
         {/* JOB DETAILS  */}
@@ -90,7 +90,7 @@ const JobDetails = () => {
                 icon={faDollarSign}
               ></FontAwesomeIcon>
               <span className="font-semibold text-slate-700">Salary: </span>
-              {exists?.salary_range}{" "}
+              {job?.salary_range}{" "}
             </p>
             <p className="my-2 text-slate-600">
               <FontAwesomeIcon
@@ -98,7 +98,7 @@ const JobDetails = () => {
                 icon={faFileArchive}
               ></FontAwesomeIcon>
               <span className="font-semibold text-slate-700">Job Title: </span>
-              {exists?.job_title}
+              {job?.job_title}
             </p>
           </div>
 
@@ -115,7 +115,7 @@ const JobDetails = () => {
                 icon={faPhone}
               ></FontAwesomeIcon>
               <span className="font-semibold text-slate-700">Phone: </span>{" "}
-              {exists?.contact_information.contact_phone}
+              {job?.contact_information.contact_phone}
             </p>
 
             <p className="my-2 text-slate-600">
@@ -124,7 +124,7 @@ const JobDetails = () => {
                 icon={faEnvelope}
               ></FontAwesomeIcon>
               <span className="font-semibold text-slate-700">Email: </span>{" "}
-              {exists?.contact_information.contact_email}
+              {job?.contact_information.contact_email}
             </p>
 
             <p className="my-2 text-slate-600">
@@ -133,16 +133,21 @@ const JobDetails = () => {
                 icon={faLocationPin}
               ></FontAwesomeIcon>
               <span className="font-semibold text-slate-700">Address: </span>{" "}
-              {exists?.location}
+              {job?.location}
             </p>
           </div>
         </div>
       </div>
 
       <div className="container mx-auto mb-12 flex items-center justify-center  ">
-        <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold text-xl p-3 rounded-md md:w-72 w-36">
-          Apply Now
-        </button>
+        <Link>
+          <button
+            onClick={() => handleApplyNowBtn(job)}
+            className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold text-xl p-3 rounded-md md:w-72 w-36"
+          >
+            Apply Now
+          </button>
+        </Link>
       </div>
     </div>
   );
