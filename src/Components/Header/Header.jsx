@@ -18,7 +18,7 @@ const Header = () => {
         <ActiveLinks to="/">Home</ActiveLinks>
         <ActiveLinks to="/statistics">Statistics</ActiveLinks>
         <ActiveLinks to="/appliedJobs">Applied Jobs</ActiveLinks>
-        <ActiveLinks to="/blog">Blog</ActiveLinks>
+        <ActiveLinks to="/blogs">Blog</ActiveLinks>
       </div>
       <p className="text-end text-2xl text-purple-600">
         <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>

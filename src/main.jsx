@@ -6,11 +6,15 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Statistics from "./Components/Statistics/Statistics.jsx";
 import AppliedJobs from "./Components/AppliedJobs/AppliedJobs.jsx";
-import Blog from "./Components/Blog/Blog.jsx";
+import Blogs from "./Components/Blogs/Blogs.jsx";
 import NotFound from "./Components/NotFound/NotFound.jsx";
 import Main from "./Components/Main/Main.jsx";
 import Home from "./Components/Home/Home.jsx";
-import { loaders } from "./Components/Loaders/Loaders.jsx";
+import {
+  blogsLoaders,
+  jobsLoaders,
+  loaders,
+} from "./Components/Loaders/Loaders.jsx";
 import JobDetails from "./Components/JobDetails/JobDetails.jsx";
 
 const router = createBrowserRouter([
@@ -34,14 +38,16 @@ const router = createBrowserRouter([
       {
         path: "statistics",
         element: <Statistics></Statistics>,
+        loader: jobsLoaders,
       },
       {
         path: "appliedJobs",
         element: <AppliedJobs></AppliedJobs>,
       },
       {
-        path: "blog",
-        element: <Blog></Blog>,
+        path: "blogs",
+        element: <Blogs></Blogs>,
+        loader: blogsLoaders,
       },
     ],
   },

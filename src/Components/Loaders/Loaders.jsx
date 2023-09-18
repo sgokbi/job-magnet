@@ -9,9 +9,15 @@ const loaders = async () => {
 };
 
 const jobsLoaders = async () => {
-  const loadedJobs = await fetch("jobs.jso");
+  const loadedJobs = await fetch("jobs.json");
   const jobs = loadedJobs.json();
   return jobs;
 };
 
-export { loaders, jobsLoaders };
+const blogsLoaders = async () => {
+  const loadedBlog = await fetch("blogs.json");
+  const blogs = loadedBlog.json();
+  return blogs;
+};
+
+export { loaders, jobsLoaders, blogsLoaders };
