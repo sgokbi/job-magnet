@@ -1,0 +1,72 @@
+[
+  {
+    "year": 2022,
+    "average_unemployment_rate": 4.3,
+    "average_job_openings": 352000,
+    "average_hiring_index": 103,
+    "average_job_seekers": 321000
+  },
+  {
+    "year": 2021,
+    "average_unemployment_rate": 4.8,
+    "average_job_openings": 340000,
+    "average_hiring_index": 99,
+    "average_job_seekers": 328000
+  },
+  {
+    "year": 2020,
+    "average_unemployment_rate": 5.2,
+    "average_job_openings": 325000,
+    "average_hiring_index": 97,
+    "average_job_seekers": 335000
+  },
+  {
+    "year": 2022,
+    "average_unemployment_rate": 4.3,
+    "average_job_openings": 352000,
+    "average_hiring_index": 103,
+    "average_job_seekers": 321000
+  },
+  {
+    "year": 2021,
+    "average_unemployment_rate": 4.8,
+    "average_job_openings": 340000,
+    "average_hiring_index": 99,
+    "average_job_seekers": 328000
+  },
+  {
+    "year": 2020,
+    "average_unemployment_rate": 5.2,
+    "average_job_openings": 325000,
+    "average_hiring_index": 97,
+    "average_job_seekers": 335000
+  },
+  {
+    "year": 2022,
+    "average_unemployment_rate": 4.3,
+    "average_job_openings": 352000,
+    "average_hiring_index": 103,
+    "average_job_seekers": 321000
+  },
+  {
+    "year": 2021,
+    "average_unemployment_rate": 4.8,
+    "average_job_openings": 340000,
+    "average_hiring_index": 99,
+    "average_job_seekers": 328000
+  },
+  {
+    "year": 2020,
+    "average_unemployment_rate": 5.2,
+    "average_job_openings": 325000,
+    "average_hiring_index": 97,
+    "average_job_seekers": 335000
+  },
+  {
+    "year": 2022,
+    "average_unemployment_rate": 4.3,
+    "average_job_openings": 352000,
+    "average_hiring_index": 103,
+    "average_job_seekers": 321000
+  }
+]
