@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../assets/images/agriculture.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
@@ -24,7 +24,7 @@ const FeaturedJobs = ({ job }) => {
   return (
     <div>
       <div className="border-solid border-2 border-gray-100 rounded-md hover:shadow-lg duration-300 p-8 ">
-        <img className="mb-4" src={pic} alt="" />
+        <img className="mb-4" src={logo} alt="" />
         <p className="font-semibold text-slate-700 text-xl mb-2">
           {job_title}{" "}
         </p>

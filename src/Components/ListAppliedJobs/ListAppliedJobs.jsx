@@ -1,18 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import pic from "../../assets/images/agriculture.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const ListAppliedJons = ({ job }) => {
-  const {
-    job_title,
-    company,
-    job_id: id,
-    location,
-    salary_range,
-    job_type,
-  } = job;
+  const { job_title, company, job_id: id } = job;
   const navigate = useNavigate();
 
   const handleViewDetails = () => {

@@ -1,7 +1,5 @@
-import React, { createContext, useState } from "react";
+import React, { useState } from "react";
 import Heading from "../Heading/Heading";
-import pic from "../../assets/images/heading_pic.png";
-
 import { useLoaderData } from "react-router-dom";
 import JobsCategories from "../JobsCategories/JobsCategories";
 import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
@@ -36,7 +34,7 @@ const Home = () => {
   md:flex justify-between "
         >
           <div className="order-first md:order-last">
-            <img src={pic} alt="" />
+            <img src="heading_pic.png" alt="" />
           </div>
           <div className="flex justify-start items-center md:w-4/6 w-full mt-16 md:mt-0 ">
             <div className="text-center md:text-left">

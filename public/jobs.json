@@ -2,7 +2,7 @@
   {
     "company": {
       "name": "ABC Tech Inc",
-      "logo": "https://example.com/abc-tech-logo.png"
+      "logo": "education.png"
     },
     "job_id": "01",
     "job_title": "Software Engineer",
@@ -27,7 +27,7 @@
   {
     "company": {
       "name": "XYZ Healthcare",
-      "logo": "https://example.com/xyz-healthcare-logo.png"
+      "logo": "education.png"
     },
     "job_id": "02",
     "job_title": "Registered Nurse",
@@ -52,7 +52,7 @@
   {
     "company": {
       "name": "123 Finance Corp",
-      "logo": "https://example.com/123-finance-logo.png"
+      "logo": "education.png"
     },
     "job_id": "03",
     "job_title": "Financial Analyst",
@@ -77,7 +77,7 @@
   {
     "company": {
       "name": "ABC Marketing Agency",
-      "logo": "https://example.com/abc-marketing-logo.png"
+      "logo": "education.png"
     },
     "job_id": "04",
     "job_title": "Marketing Manager",
@@ -102,7 +102,7 @@
   {
     "company": {
       "name": "Tech Innovators",
-      "logo": "https://example.com/tech-innovators-logo.png"
+      "logo": "education.png"
     },
     "job_id": "05",
     "job_title": "Data Scientist",
@@ -127,7 +127,7 @@
   {
     "company": {
       "name": "EcoGreen Solutions",
-      "logo": "https://example.com/ecogreen-logo.png"
+      "logo": "education.png"
     },
     "job_id": "06",
     "job_title": "Environmental Engineer",
@@ -152,7 +152,7 @@
   {
     "company": {
       "name": "Global Logistics Inc",
-      "logo": "https://example.com/global-logistics-logo.png"
+      "logo": "education.png"
     },
     "job_id": "07",
     "job_title": "Logistics Coordinator",
@@ -177,7 +177,7 @@
   {
     "company": {
       "name": "Artistic Creations Studio",
-      "logo": "https://example.com/artistic-creations-logo.png"
+      "logo": "education.png"
     },
     "job_id": "08",
     "job_title": "Graphic Designer",
@@ -202,7 +202,7 @@
   {
     "company": {
       "name": "Wide Range Inc",
-      "logo": "https://example.com/abc-tech-logo.png"
+      "logo": "education.png"
     },
     "job_id": "09",
     "job_title": "Electrical Engineer",
@@ -226,7 +226,7 @@
   {
     "company": {
       "name": "Agro Corp",
-      "logo": "https://example.com/123-finance-logo.png"
+      "logo": "education.png"
     },
     "job_id": "10",
     "job_title": "Manager",

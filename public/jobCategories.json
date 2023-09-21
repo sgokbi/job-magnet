@@ -26,7 +26,7 @@
     "number_of_jobs": 900
   },
   {
-    "icon": "customer-service.png",
+    "icon": "customer_service.png",
     "category": "Customer Service",
     "number_of_jobs": 1800
   },
