@@ -17,7 +17,7 @@ All the data - Job Categories, Job Posts, Statistics, and Blogs are created manu
 
 ### Technologies used for this project
 
-- React Router(https://reactrouter.com/en/main/start/tutorial#url-params-in-loaders)
-- Font Awesome(https://fontawesome.com/search), is used for the icons.
-- Tailwind CSS(https://tailwindcss.com/docs/installation), is used as a CSS Framework for the style
-- Recharts(https://recharts.org/en-US/examples), is a composable charting library built on React components. It is used to create bar charts on the statistics page.
+- [React Router](https://reactrouter.com/en/main/start/tutorial#url-params-in-loaders)
+- [Font Awesome](https://fontawesome.com/search), is used for the icons.
+- [Tailwind CSS](https://tailwindcss.com/docs/installation), is used as a CSS Framework for the style
+- [Recharts](https://recharts.org/en-US/examples), is a composable charting library built on React components. It is used to create bar charts on the statistics page.
