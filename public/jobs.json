@@ -1,8 +1,8 @@
 [
   {
     "company": {
-      "name": "ABC Tech Inc",
-      "logo": "education.png"
+      "name": "abc-tech.png",
+      "logo": "abc-tech.png"
     },
     "job_id": "01",
     "job_title": "Software Engineer",
@@ -27,7 +27,7 @@
   {
     "company": {
       "name": "XYZ Healthcare",
-      "logo": "education.png"
+      "logo": "xyz-healthcare.png"
     },
     "job_id": "02",
     "job_title": "Registered Nurse",
@@ -52,7 +52,7 @@
   {
     "company": {
       "name": "123 Finance Corp",
-      "logo": "education.png"
+      "logo": "123-finance.png"
     },
     "job_id": "03",
     "job_title": "Financial Analyst",
@@ -77,7 +77,7 @@
   {
     "company": {
       "name": "ABC Marketing Agency",
-      "logo": "education.png"
+      "logo": "abc-marketing.png"
     },
     "job_id": "04",
     "job_title": "Marketing Manager",
@@ -102,7 +102,7 @@
   {
     "company": {
       "name": "Tech Innovators",
-      "logo": "education.png"
+      "logo": "tech-innovators.png"
     },
     "job_id": "05",
     "job_title": "Data Scientist",
@@ -127,7 +127,7 @@
   {
     "company": {
       "name": "EcoGreen Solutions",
-      "logo": "education.png"
+      "logo": "eco-environment.png"
     },
     "job_id": "06",
     "job_title": "Environmental Engineer",
@@ -152,7 +152,7 @@
   {
     "company": {
       "name": "Global Logistics Inc",
-      "logo": "education.png"
+      "logo": "global-logistics.png"
     },
     "job_id": "07",
     "job_title": "Logistics Coordinator",
@@ -177,7 +177,7 @@
   {
     "company": {
       "name": "Artistic Creations Studio",
-      "logo": "education.png"
+      "logo": "artistic-creations.png"
     },
     "job_id": "08",
     "job_title": "Graphic Designer",
@@ -202,7 +202,7 @@
   {
     "company": {
       "name": "Wide Range Inc",
-      "logo": "education.png"
+      "logo": "wide-range.png"
     },
     "job_id": "09",
     "job_title": "Electrical Engineer",
@@ -226,7 +226,7 @@
   {
     "company": {
       "name": "Agro Corp",
-      "logo": "education.png"
+      "logo": "agro-corp.png"
     },
     "job_id": "10",
     "job_title": "Manager",

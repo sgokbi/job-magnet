@@ -24,7 +24,7 @@ const FeaturedJobs = ({ job }) => {
   return (
     <div>
       <div className="border-solid border-2 border-gray-100 rounded-md hover:shadow-lg duration-300 p-8 ">
-        <img className="mb-4" src={logo} alt="" />
+        <img className="mb-4 w-36" src={logo} alt="" />
         <p className="font-semibold text-slate-700 text-xl mb-2">
           {job_title}{" "}
         </p>
