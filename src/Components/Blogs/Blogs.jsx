@@ -16,7 +16,7 @@ const Blogs = () => {
         </div>
       </Heading>
 
-      <div className="container mx-auto my-6 md:px-16">
+      <div className="container mx-auto my-16 md:px-16">
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-12">
           {blogs.map((blog) => (
             <Blog key={blog.id} blog={blog}></Blog>
