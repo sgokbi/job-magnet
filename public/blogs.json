@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../src/assets/images/blog-1.jpg",
+    "image": "blog-1.jpg",
     "blog_link": "https://www.themuse.com/advice/interview-questions-and-answers",
     "title": "Your 2023 Guide to the Most Common Interview Questions and Answers",
     "author_name": "John Smith",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "../src/assets/images/blog-3.jpg",
+    "image": "blog-2.jpg",
     "blog_link": "https://www.themuse.com/advice/chief-information-officer-guidepoint-saumil-shah",
     "title": "Here’s How to Ace a Tech Interview, According to a CIO (He’s Hiring!)",
     "author_name": "Jane Doe",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "../src/assets/images/blog-2.jpg",
+    "image": "blog-3.jpg",
     "blog_link": "https://www.careercontessa.com/advice/how-to-focus/",
     "title": "13 Tricks to Help You Focus at Work",
     "author_name": "David Johnson",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "../src/assets/images/blog-4.jpg",
+    "image": "blog-4.jpg",
     "blog_link": "https://www.careercontessa.com/advice/negativity-in-the-office/",
     "title": "Negativity in the Office: How to Stay Positive at Work",
     "author_name": "Sarah Williams",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "image": "../src/assets/images/blog-5.jpg",
+    "image": "blog-5.jpg",
     "blog_link": "https://www.careercontessa.com/advice/fear-of-public-speaking/",
     "title": "14 Tips to Get Over Your Fear of Public Speaking at Work",
     "author_name": "Michael Brown",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "image": "../src/assets/images/blog-6.jpg",
+    "image": "blog-6.jpg",
     "blog_link": "https://www.careercontessa.com/advice/template-asking-for-raise/",
     "title": "How to Ask for a Raise at Work: 8 Tips That Work",
     "author_name": "Emily Taylor",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "image": "../src/assets/images/blog-7.jpeg",
+    "image": "blog-7.jpeg",
     "blog_link": "https://www.careercontessa.com/advice/growth-mindsets-career-growth/",
     "title": "Growth Mindsets and the Power of 'Yet'",
     "author_name": "Daniel Clark",

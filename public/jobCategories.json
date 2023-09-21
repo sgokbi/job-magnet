@@ -1,42 +1,42 @@
 [
   {
-    "icon": "../src/assets/images/technology.png",
+    "icon": "technology.png",
     "category": "Information Technology",
     "number_of_jobs": 2500
   },
 
   {
-    "icon": "../src/assets/images/health-care-64.png",
+    "icon": "health-care-64.png",
     "category": "Healthcare",
     "number_of_jobs": 1800
   },
   {
-    "icon": "../src/assets/images/finance.png",
+    "icon": "finance.png",
     "category": "Finance",
     "number_of_jobs": 1200
   },
   {
-    "icon": "../src/assets/images/emgineering.png",
+    "icon": "engineering.png",
     "category": "Engineering",
     "number_of_jobs": 2200
   },
   {
-    "icon": "../src/assets/images/education.png",
+    "icon": "education.png",
     "category": "Education",
     "number_of_jobs": 900
   },
   {
-    "icon": "../src/assets/images/customer_service.png",
+    "icon": "customer-service.png",
     "category": "Customer Service",
     "number_of_jobs": 1800
   },
   {
-    "icon": "../src/assets/images/marketing.png",
+    "icon": "marketing.png",
     "category": "Marketing",
     "number_of_jobs": 1300
   },
   {
-    "icon": "../src/assets/images/agriculture.png",
+    "icon": "agriculture.png",
     "category": "Agriculture",
     "number_of_jobs": 900
   }
