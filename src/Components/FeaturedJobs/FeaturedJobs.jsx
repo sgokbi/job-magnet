@@ -55,7 +55,7 @@ const FeaturedJobs = ({ job }) => {
         {/* <Link to="/jobDetails"> */}
         <button
           onClick={handleViewDetails}
-          className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold p-3 rounded-md"
+          className="bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:scale-110 duration-300 text-white font-bold p-3 rounded-md"
         >
           View Details
         </button>

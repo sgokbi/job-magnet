@@ -37,7 +37,7 @@ const ListAppliedJons = ({ job }) => {
 
         <button
           onClick={handleViewDetails}
-          className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold p-2 mt-2 rounded-md text-sm "
+          className="bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:scale-110 duration-300 text-white font-bold p-2 mt-2 rounded-md text-sm "
         >
           View Details
         </button>

@@ -15,7 +15,7 @@ const Home = () => {
   let showMoreBtn;
   if (jobs.length > showMore) {
     showMoreBtn = (
-      <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold px-12 py-4 rounded-md text-2xl">
+      <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:scale-110 duration-300 text-white font-bold px-12 py-4 rounded-md text-2xl">
         Show More
       </button>
     );
@@ -52,7 +52,7 @@ const Home = () => {
                 necessitatibus repellat doloremque quisquam laborum tempora.
                 Quasi consequatur harum nihil?
               </p>
-              <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold p-3 rounded-md">
+              <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:scale-110 duration-300 text-white font-bold p-3 rounded-md">
                 Get Started
               </button>
             </div>
